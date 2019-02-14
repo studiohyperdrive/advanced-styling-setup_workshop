@@ -32,6 +32,7 @@ $o-card-border-radius: 3px;
 }
 
 .o-card__content {
+	background: $white;
 	border: 1px solid $border-color;
 	border-radius: 0 0 $o-card-border-radius $o-card-border-radius;
 	border-top: 0;
