@@ -45,9 +45,18 @@ $o-card-border-radius: 3px;
 	align-items: center;
 	justify-content: space-between;
 
-	padding-top: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 
 	img {
 		height: 100%;
 	}
+}
+
+.o-card__likes {
+	font-size: 14px;
+	font-weight: 600;
+	color: $color-base;
+
+	margin: 0 0 4px;
 }

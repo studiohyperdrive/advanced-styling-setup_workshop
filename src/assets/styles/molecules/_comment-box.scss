@@ -1,18 +1,23 @@
-.a-comment-box {
+.m-comment-box {
 	display: flex;
 	align-items: center;
 	border-top: 1px solid $border-color-primary;
 	font-size: rem(14px);
 	line-height: rem(18px);
-	min-height: rem(56px);
+	min-height: rem(54px);
+
+	form {
+		width: 100%;
+	}
 }
 
-.a-comment-box__input {
+.m-comment-box__input {
 	background: 0 0;
 	border: 0;
 	color: $text-color-primary;
 	font-size: inherit;
 	height: 18px;
+	width: 100%;
 	max-height: 80px;
 	outline: 0;
 	padding: 0;
