@@ -3,16 +3,6 @@ body {
 }
 
 
-
-.q-username {
-	font-size: 14px;
-	font-weight: 600;
-	color: $color-base;
-
-	margin: 0 0 3px;
-}
-
-.q-description {
-	font-size: 12px;
-	line-height: 15px;
+span {
+	font-size: rem(14px);
 }
