@@ -4,14 +4,26 @@
 }
 
 .m-logo__divider {
+	display: none;
+
 	height: 32px;
 	width: 1px;
 
 	margin: 0 16px;
 
 	background-color: $icon-color-primary;
+
+	@include at($screen-sm) {
+		display: block;
+	}
 }
 
 .m-logo .a-logo-type {
+	display: none;
+
 	margin-top: 10px;
+
+	@include at($screen-sm) {
+		display: block;
+	}
 }
