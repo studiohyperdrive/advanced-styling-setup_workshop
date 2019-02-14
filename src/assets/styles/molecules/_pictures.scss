@@ -1,0 +1,63 @@
+.m-pictures {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-gap: 10px;
+
+	max-width: $screen-lg;
+	margin: 0 auto;
+	padding: 40px 0;
+
+	@include at($screen-sm) {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 2px;
+	}
+
+	@include at($screen-md) {
+		grid-gap: 20px;
+	}
+}
+
+.m-pictures__item {
+	position: relative;
+
+	cursor: pointer;
+
+	&:hover .m-pictures__overlay {
+		display: flex;
+	}
+}
+
+.m-pictures__picture {
+	width: 100%;
+}
+
+.m-pictures__overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.m-pictures__likes,
+.m-pictures__comments {
+	display: flex;
+	align-items: center;
+
+	margin: 0 10px;
+
+	font-weight: bold;
+	color: $white;
+
+	img {
+		height: 20px;
+		margin-right: 5px;
+	}
+}
