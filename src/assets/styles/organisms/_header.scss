@@ -1,7 +1,8 @@
 .o-header {
 	padding: 20px 0;
 
-	border-bottom: 1px solid $border-color;
+	background-color: $white;
+	border-bottom: 1px solid $border-color-primary;
 }
 
 .o-header__inner {
