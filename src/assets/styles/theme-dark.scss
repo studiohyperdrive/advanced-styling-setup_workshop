@@ -1,0 +1,32 @@
+// Theme config
+// ------------------------------------------------------------------------- /
+$alabaster: #222;
+$mercury: #e6e6e6;
+$dusty: #999;
+$shark: #262626;
+$midnight: #003569;
+
+$white: #fff;
+$black: #000;
+
+// Contextual colors
+// ---
+// These are the colors that you're supposed to use.
+// ------------------------------------------------------------------------- /
+$color-base: $shark;
+$border-color: $mercury;
+
+$text-color-primary: $white;
+$link-color-primary: $midnight;
+$icon-color-primary: $white;
+$border-color-primary: $dusty;
+$background-color-primary: $alabaster;
+
+$text-color-secondary: $dusty;
+$background-color-secondary: $black;
+
+$background-color-overlay: rgba($black, 0.3);
+
+// Import Styles
+// ------------------------------------------------------------------------- /
+@import "./_styles.scss";
