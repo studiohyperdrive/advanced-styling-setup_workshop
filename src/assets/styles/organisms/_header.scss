@@ -1,8 +1,17 @@
 .o-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: layer("header");
+
 	padding: 20px 0;
 
 	background-color: $background-color-secondary;
 	border-bottom: 1px solid $border-color-primary;
+
+	&::after {
+		content: "";
+	}
 }
 
 .o-header__inner {
