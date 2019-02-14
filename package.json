@@ -11,9 +11,11 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --out-dir dist",
-    "serve:dist": "live-server dist"
+    "serve:dist": "live-server dist",
+    "lint:styles": "stylelint 'src/**/*.scss'"
   },
   "devDependencies": {
+    "@studiohyperdrive/stylelint-config": "^1.0.8",
     "autoprefixer": "^9.4.6",
     "cssnano": "^4.1.8",
     "live-server": "^1.2.1",
@@ -22,6 +24,7 @@
     "postcss": "^7.0.14",
     "postcss-cli": "^6.1.1",
     "postcss-cssnext": "^3.1.0",
-    "sass": "^1.16.1"
+    "sass": "^1.16.1",
+    "stylelint": "^9.10.1"
   }
 }
