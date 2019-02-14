@@ -52,3 +52,11 @@ $o-card-border-radius: 3px;
 		height: 100%;
 	}
 }
+
+.o-card__likes {
+	font-size: 14px;
+	font-weight: 600;
+	color: $color-base;
+
+	margin: 0 0 4px;
+}
