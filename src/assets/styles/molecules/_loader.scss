@@ -1,0 +1,13 @@
+.m-loader {
+	max-height: 50px;
+
+	img {
+		max-height: 100%;
+	}
+}
+
+// modifiers
+.m-loader--centered {
+	display: flex;
+	justify-content: center;
+}
