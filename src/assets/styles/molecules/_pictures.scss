@@ -20,12 +20,7 @@
 
 .m-pictures__item {
 	position: relative;
-
 	cursor: pointer;
-
-	&:hover .m-pictures__overlay {
-		display: flex;
-	}
 }
 
 .m-pictures__picture {
@@ -60,4 +55,9 @@
 		height: 20px;
 		margin-right: 5px;
 	}
+}
+
+// interactions
+.m-pictures__item:hover .m-pictures__overlay {
+	display: flex;
 }
