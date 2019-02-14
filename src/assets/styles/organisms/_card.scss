@@ -2,7 +2,10 @@ $o-card-border-radius: 3px;
 
 .o-card {
 	max-width: 614px;
-	margin: 20;
+
+	& + .o-card {
+		margin-top: rem(60px);
+	}
 }
 
 .o-card__header {
