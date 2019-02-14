@@ -1,7 +1,7 @@
 // Primitive colors
 // ------------------------------------------------------------------------- /
-$alabaster: #FAFAFA;
-$mercury: #E6E6E6;
+$alabaster: #fafafa;
+$mercury: #e6e6e6;
 $dusty: #999;
 $shark: #262626;
 $midnight: #003569;
@@ -24,3 +24,5 @@ $background-color-primary: $alabaster;
 
 $text-color-secondary: $dusty;
 $background-color-secondary: $white;
+
+$background-color-overlay: rgba($black, 0.3);

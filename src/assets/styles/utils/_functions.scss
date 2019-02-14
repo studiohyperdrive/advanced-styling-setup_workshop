@@ -13,7 +13,7 @@
 // ------------------------------------------------------------------------- /
 @function layer($layer) {
 	@if not map-has-key($layers, $layer) {
-		@warn 'The layer `#{$layer}` was not found in the layers-map.';
+		@warn "The layer `#{$layer}` was not found in the layers-map.";
 	}
 
 	@return map-get($layers, $layer);
