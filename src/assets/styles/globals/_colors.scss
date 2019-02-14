@@ -1,3 +1,14 @@
-$color-base: #262626;
+// Primitive colors
+// ------------------------------------------------------------------------- /
 
-$border-color: #E6E6E6;
+$white: #fff;
+$mercury: #e6e6e6;
+$mine-shaft: #262626;
+
+// Contextual colors
+// ---
+// These are the colors that you're supposed to use.
+// ------------------------------------------------------------------------- /
+$color-base: $mine-shaft;
+
+$border-color: $mercury;

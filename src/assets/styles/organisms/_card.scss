@@ -1,0 +1,51 @@
+$o-card-border-radius: 3px;
+
+.o-card {
+	max-width: 614px;
+	margin: 20;
+}
+
+.o-card__header {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 16px;
+	background-color: $white;
+
+	border: 1px solid $border-color;
+	border-radius: $o-card-border-radius $o-card-border-radius 0 0;
+	border-bottom: 0;
+
+	.a-avatar {
+		margin-right: 10px;
+	}
+}
+
+.o-card__image {
+	overflow: hidden;
+
+	img {
+		width: 100%;
+		vertical-align: top;
+	}
+}
+
+.o-card__content {
+	border: 1px solid $border-color;
+	border-radius: 0 0 $o-card-border-radius $o-card-border-radius;
+	border-top: 0;
+
+	padding: 0 16px;
+}
+
+.o-card__actions {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	padding-top: 10px;
+
+	img {
+		height: 100%;
+	}
+}
