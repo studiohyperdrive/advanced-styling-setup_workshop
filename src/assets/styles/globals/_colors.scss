@@ -2,13 +2,18 @@
 // ------------------------------------------------------------------------- /
 
 $white: #fff;
+$alabaster: #fafafa;
 $mercury: #e6e6e6;
-$mine-shaft: #262626;
+$shark: #262626;
 
 // Contextual colors
 // ---
 // These are the colors that you're supposed to use.
 // ------------------------------------------------------------------------- /
-$color-base: $mine-shaft;
-
+$color-base: $shark;
 $border-color: $mercury;
+
+$text-color-primary: $shark;
+$icon-color-primary: $shark;
+$border-color-primary: $mercury;
+$background-color-primary: $alabaster;
