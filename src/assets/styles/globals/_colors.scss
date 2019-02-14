@@ -1,10 +1,13 @@
 // Primitive colors
 // ------------------------------------------------------------------------- /
+$alabaster: #FAFAFA;
+$mercury: #E6E6E6;
+$dusty: #999;
+$shark: #262626;
+$midnight: #003569;
 
 $white: #fff;
-$alabaster: #fafafa;
-$mercury: #e6e6e6;
-$shark: #262626;
+$black: #000;
 
 // Contextual colors
 // ---
@@ -14,6 +17,10 @@ $color-base: $shark;
 $border-color: $mercury;
 
 $text-color-primary: $shark;
+$link-color-primary: $midnight;
 $icon-color-primary: $shark;
 $border-color-primary: $mercury;
 $background-color-primary: $alabaster;
+
+$text-color-secondary: $dusty;
+$background-color-secondary: $white;
