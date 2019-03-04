@@ -1,13 +1,9 @@
-.a-loader {
-	max-height: rem(50px);
+// TODO
+// create a loader-atom that has a max-height of 50px
+// inside the loader is a full-height <img> (contained by the loader itself)
+.a-loader {}
 
-	img {
-		max-height: 100%;
-	}
-}
 
-// modifiers
-.a-loader--centered {
-	display: flex;
-	justify-content: center;
-}
+// TODO
+// Create a modifier that centers the loader horizontally
+.a-loader--centered {}
