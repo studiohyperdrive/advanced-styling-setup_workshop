@@ -1,7 +1,7 @@
 .m-footer {
-	padding: 40px 0;
+	padding: rem(40px) 0;
 
-	font-size: 12px;
+	font-size: rem(12px);
 	font-weight: 600;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -36,11 +36,11 @@
 	}
 
 	li {
-		margin-right: 16px;
-		margin-bottom: 8px;
+		margin-right: rem(16px);
+		margin-bottom: rem(8px);
 
 		&:last-child {
-			margin-right: 16px;
+			margin-right: rem(16px);
 		}
 	}
 

@@ -6,10 +6,10 @@
 .m-logo__divider {
 	display: none;
 
-	height: 32px;
-	width: 1px;
+	height: rem(32px);
+	width: rem(1px);
 
-	margin: 0 16px;
+	margin: 0 rem(16px);
 
 	background-color: $icon-color-primary;
 
@@ -21,7 +21,7 @@
 .m-logo .a-logo-type {
 	display: none;
 
-	margin-top: 10px;
+	margin-top: rem(10px);
 
 	@include at($screen-sm) {
 		display: block;
