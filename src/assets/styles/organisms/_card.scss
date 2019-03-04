@@ -55,7 +55,7 @@ $o-card-border-radius: rem(3px);
 }
 
 .o-card__likes {
-	font-size: rem(14px);
+	font-size: rem($font-size-base);
 	font-weight: 600;
 	color: $color-base;
 
