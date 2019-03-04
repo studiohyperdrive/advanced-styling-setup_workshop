@@ -15,7 +15,7 @@
     "lint:styles": "stylelint 'src/**/*.scss'"
   },
   "devDependencies": {
-    "@studiohyperdrive/stylelint-config": "^1.0.8",
+    "@studiohyperdrive/stylelint-config": "^1.0.9",
     "autoprefixer": "^9.4.6",
     "cssnano": "^4.1.8",
     "live-server": "^1.2.1",

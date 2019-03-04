@@ -2,7 +2,7 @@
 	display: flex;
 	align-items: center;
 	border-top: 1px solid $border-color-primary;
-	font-size: rem(14px);
+	font-size: rem($font-size-base);
 	line-height: rem(18px);
 	min-height: rem(54px);
 
