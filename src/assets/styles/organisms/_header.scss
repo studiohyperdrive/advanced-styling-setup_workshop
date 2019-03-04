@@ -1,30 +1,16 @@
-.o-header {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: layer("header");
+// TODO
+// - Create a fixed header that spans the full width of the page
+// - Add 20px of vertical padding to the header
+// - Use the layer-mixin to define a z-index for the header
+// - Besides the background color ($background-color-secondary),
+//   the header should also have a border-bottom of 1px
 
-	padding: rem(20px) 0;
+// TODO
+// - Add an inner-wrapper for the header that functions as a flex-container
+// - Items in the header should have equal space in between them
+// - Vertically align the items in the header
 
-	background-color: $background-color-secondary;
-	border-bottom: 1px solid $border-color-primary;
-
-	&::after {
-		content: "";
-	}
-}
-
-.o-header__inner {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.o-header__action {
-	height: rem(24px);
-	margin-right: rem(30px);
-
-	&:last-child {
-		margin-right: 0;
-	}
-}
+// TODO
+// Styling for the actions in the header should be added here:
+// - They have a height of 24px each
+// - All actions have 30px of space between them

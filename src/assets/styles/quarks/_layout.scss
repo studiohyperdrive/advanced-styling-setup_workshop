@@ -8,6 +8,7 @@ html {
 
 body {
 	min-height: 100%;
-	padding-top: rem(80px);
 	background-color: $background-color-primary;
+
+	// TODO: add 80px of padding-top here to account for the fixed header
 }
