@@ -1,29 +1,13 @@
-.m-logo {
-	display: flex;
-	align-items: center;
-}
+// TODO
+// Create a molecule (logo) that wraps the different logo-atoms (icon & type)
+// - It should be a flex-container aligning the items centered at the baseline
 
-.m-logo__divider {
-	display: none;
+// TODO
+// Add a divider between the logo icon & type
+// - The divider should be 32px high and 1px wide
+// - There should be a margin of 16px on either side of the divider
+// - The divider should have the same background color as the other icons ($icon-color-primary)
 
-	height: rem(32px);
-	width: rem(1px);
-
-	margin: 0 rem(16px);
-
-	background-color: $icon-color-primary;
-
-	@include at($screen-sm) {
-		display: block;
-	}
-}
-
-.m-logo .a-logo-type {
-	display: none;
-
-	margin-top: rem(10px);
-
-	@include at($screen-sm) {
-		display: block;
-	}
-}
+// TODO
+// Only show the icon-part of the logo on small screens
+// - Additionally, give it a margin-top of 10px
