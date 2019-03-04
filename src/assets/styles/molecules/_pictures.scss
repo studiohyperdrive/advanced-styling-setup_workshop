@@ -1,46 +1,27 @@
-.m-pictures {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto;
-	grid-gap: rem(10px);
+// TODO
+// - Create a grid 👀 of pictures
+// - Each picture should have the same space available (equal columns)
+// - Rows should be spaced automatically
+// - The grid should have a max width of (960px) the size of a large screen ($screen-lg)
+// - The grid should be centered horizontally in it's container
+// - The grid should have a vertical padding of 40px
+// ON SMALL SCREENS
+// - Pictures should have a grap of 10px in between them
+// ON MEDIUM SCREENS
+// - Pictures should be in a grid of 3 equal columns
+// - Pictures should have a gap of 2px in between them
+// ON > MEDIUM SCREENS
+// - The gap between pictures should be increased to 20px
 
-	max-width: $screen-lg;
-	margin: 0 auto;
-	padding: rem(40px) 0;
-
-	@include at($screen-sm) {
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: rem(2px);
-	}
-
-	@include at($screen-md) {
-		grid-gap: rem(20px);
-	}
-}
-
-.m-pictures__item {
-	position: relative;
-	cursor: pointer;
-}
-
-.m-pictures__picture {
-	width: 100%;
-}
-
-.m-pictures__overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-
-	display: none;
-	justify-content: center;
-	align-items: center;
-
-	background-color: $background-color-overlay;
-}
-
+// TODO
+// Add an overlay to the pictures
+// - The overlay covers the entire picture
+// - The overlay should be hidden by default, and displays when hovering an item in the pictures grid
+// - The item should show a pointer as a cursor when hovered
+// - The overlay should contain 2 items, centered both horizontally and vertically:
+//    - The amount of likes on the picture
+//    - The amount of comments on the picture
+//    - You don't have to style these 2 items, you get them as a present from us! 🎁🎉
 .m-pictures__likes,
 .m-pictures__comments {
 	display: flex;
@@ -55,9 +36,4 @@
 		height: rem(20px);
 		margin-right: rem(5px);
 	}
-}
-
-// interactions
-.m-pictures__item:hover .m-pictures__overlay {
-	display: flex;
 }
