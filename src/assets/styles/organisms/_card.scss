@@ -1,4 +1,4 @@
-$o-card-border-radius: 3px;
+$o-card-border-radius: rem(3px);
 
 .o-card {
 	max-width: rem(614px);
@@ -10,7 +10,7 @@ $o-card-border-radius: 3px;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	padding: 16px;
+	padding: rem(16px);
 	background-color: $white;
 
 	border: 1px solid $border-color;
@@ -37,7 +37,7 @@ $o-card-border-radius: 3px;
 	border-radius: 0 0 $o-card-border-radius $o-card-border-radius;
 	border-top: 0;
 
-	padding: 0 16px;
+	padding: 0 rem(16px);
 }
 
 .o-card__actions {
@@ -55,7 +55,7 @@ $o-card-border-radius: 3px;
 }
 
 .o-card__likes {
-	font-size: 14px;
+	font-size: rem(14px);
 	font-weight: 600;
 	color: $color-base;
 
