@@ -1,63 +1,37 @@
 $o-card-border-radius: rem(3px);
 
-.o-card {
-	max-width: rem(614px);
-	margin-top: rem(30px);
-	margin-bottom: rem(30px);
-}
+// TODO:
+// Add a card molecule with the following propertie:s
+// - It has a max-width of 614px
+// - Each card has a vertical margin of 30px
 
-.o-card__header {
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	padding: rem(16px);
-	background-color: $white;
+// TODO
+// Add a header for the card
+// - It has a white background
+// - It has an all-round padding of 16px
+// - It has a border of 1px
+// - It has a border-radius on the top side of it's border ($o-card-border-radius)
+// - The avatar inside the header has a margin-right of 10px
 
-	border: 1px solid $border-color;
-	border-radius: $o-card-border-radius $o-card-border-radius 0 0;
-	border-bottom: 0;
+// TODO
+// Add an image inside the card
+// - The image does not overflow the card
+// - The image scales to fill the card
 
-	.a-avatar {
-		margin-right: rem(10px);
-	}
-}
+// TODO
+// Add a content area for the card
+// - It has a white background
+// - It has a border of 1px (but not on the top-side)
+// - It has a border-radius on the bottom side of it's border ($o-card-border-radius)
+// - It has a horizontal padding of 16px
 
-.o-card__image {
-	overflow: hidden;
+// TODO
+// Add actions to the card
+// - The actions should be spaced evenly
+// - The actions should have a vertical padding of 5px
 
-	img {
-		width: 100%;
-		vertical-align: top;
-	}
-}
-
-.o-card__content {
-	background: $white;
-	border: 1px solid $border-color;
-	border-radius: 0 0 $o-card-border-radius $o-card-border-radius;
-	border-top: 0;
-
-	padding: 0 rem(16px);
-}
-
-.o-card__actions {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-
-	padding-top: rem(5px);
-	padding-bottom: rem(5px);
-	margin-left: rem(-8px);
-
-	img {
-		height: 100%;
-	}
-}
-
-.o-card__likes {
-	font-size: rem($font-size-base);
-	font-weight: 600;
-	color: $color-base;
-
-	margin: 0 0 rem(4px);
-}
+// TODO
+// Add a likes-counter to the card
+// - It has a font-size of 14px (base)
+// - It has a weight of 600
+// - It has a margin-bottom of 4px

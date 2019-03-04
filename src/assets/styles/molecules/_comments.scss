@@ -1,16 +1,10 @@
-.m-comments {
-	// reset list styling
-	list-style: none;
-	margin: 0 0 rem(4px);
-	padding: 0;
+// TODO
+// Add a comments molecule that contains a list of comments
+// - Reset the initial list-styling
+// - Add 4px of margin at the bottom of the comments
+// - The comments have a font-size of 14px (base)
 
-	font-size: rem($font-size-base);
-}
 
-.m-comments__item {
-	padding: rem(5px) 0;
-
-	.a-username {
-		display: inline;
-	}
-}
+// TODO
+// Each item in the comments has a vertical padding of 5px;
+// Usernames are displayed inline in the comment
