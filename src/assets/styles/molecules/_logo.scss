@@ -11,3 +11,32 @@
 // TODO
 // Only show the icon-part of the logo on small screens
 // - Additionally, give it a margin-top of 10px
+.m-logo {
+	display: flex;
+	align-items: center;
+}
+
+.m-logo__divider {
+	display: none;
+
+	height: rem(32px);
+	width: rem(1px);
+
+	margin: 0 rem(16px);
+
+	background-color: $icon-color-primary;
+
+	@include at($screen-sm) {
+		display: block;
+	}
+}
+
+.m-logo .a-logo-type {
+	display: none;
+
+	margin-top: rem(10px);
+
+	@include at($screen-sm) {
+		display: block;
+	}
+}
