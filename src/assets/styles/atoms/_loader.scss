@@ -7,3 +7,16 @@
 // TODO
 // Create a modifier that centers the loader horizontally
 // .a-loader--centered {}
+.a-loader {
+	max-height: rem(50px);
+
+	img {
+		max-height: 100%;
+	}
+}
+
+// modifiers
+.a-loader--centered {
+	display: flex;
+	justify-content: center;
+}
