@@ -22,3 +22,65 @@
 // - The copyright is full-width and the text inside it is centered
 // ON > LARGE SCREENS
 // - The copyright fits in with the rest of the links in the footer
+.m-footer {
+	padding: rem(40px) 0;
+
+	font-size: rem($font-size-small);
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.m-footer__inner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	@include at($screen-lg) {
+		justify-content: space-between;
+	}
+}
+
+.m-footer__links {
+	// reset list styling
+	list-style: none;
+	margin: 0;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: $screen-sm;
+
+	color: $link-color-primary;
+
+	@include at($screen-lg) {
+		flex-wrap: nowrap;
+		justify-content: initial;
+		max-width: initial;
+	}
+
+	li {
+		margin-right: rem(16px);
+		margin-bottom: rem(8px);
+
+		&:last-child {
+			margin-right: rem(16px);
+		}
+	}
+
+	a {
+		text-decoration: inherit;
+		color: inherit;
+	}
+}
+
+.m-footer__copyright {
+	width: 100%;
+
+	color: $text-color-secondary;
+	text-align: center;
+
+	@include at($screen-lg) {
+		width: initial;
+	}
+}
