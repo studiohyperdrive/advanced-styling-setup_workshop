@@ -8,3 +8,28 @@
 // Add an input field to the comment box
 // - Reset all the styling of the box
 // - Make the box (textarea) unresizable
+.m-comment-box {
+	display: flex;
+	align-items: center;
+	border-top: 1px solid $border-color-primary;
+	font-size: rem($font-size-base);
+	line-height: rem(18px);
+	min-height: rem(54px);
+
+	form {
+		width: 100%;
+	}
+}
+
+.m-comment-box__input {
+	background: 0 0;
+	border: 0;
+	color: $text-color-primary;
+	font-size: inherit;
+	height: rem(18px);
+	width: 100%;
+	max-height: rem(80px);
+	outline: 0;
+	padding: 0;
+	resize: none;
+}
