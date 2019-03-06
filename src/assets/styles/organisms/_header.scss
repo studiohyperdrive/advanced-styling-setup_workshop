@@ -14,3 +14,29 @@
 // Styling for the actions in the header should be added here:
 // - They have a height of 24px each
 // - All actions have 30px of space between them
+.o-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: layer("header");
+
+	padding: rem(20px) 0;
+
+	background-color: $background-color-secondary;
+	border-bottom: 1px solid $border-color-primary;
+}
+
+.o-header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.o-header__action {
+	height: rem(24px);
+	margin-right: rem(30px);
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
